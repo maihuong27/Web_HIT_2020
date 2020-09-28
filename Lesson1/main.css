@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{
+	font-size: 20px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.content1-title{
+	color: blue;
+	background-color:#C9F;	
+}
+
+.content1-noti{
+	font-size: 30px;
+	font-weight: 600;	
+}
+
+.content1-items{
+	background-color: black;
+	color: white;	
+}
+
+.content2{
+	text-align: center;
+}
+
+.content2-title{
+	font-size: 20px;
+	font-weight: bold;	
+	background-color: #F60;
+}
+
+.content2-item1{
+	background-color: #09F;	
+}
+
+.content2-item2{
+ 	background-color: #C06;	
+}
+
+.content3-title{
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #0CF;	
+	color: #00C;
+}
+
+.content3-items{
+	background-color: #F99;	
+}
+
+.footer{
+	color: red;
+	background-color: #C66;
+	text-align: center;	
+}
