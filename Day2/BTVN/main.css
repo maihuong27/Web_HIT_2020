@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: #20bf6b;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__intro{
+    display: flex;
+    padding-top: 70px;
+    padding-left: 150px;
+    align-items:center ;
+}
+
+.header__avatar{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header__info{
+
+}
+
+.header__info-name{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header__info-hello{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header__contact{
+    display: flex;
+    flex-direction: column;
+     margin: 70px 150px;
+}
+
+
+.fab{
+    font-size: 28px;
+    padding: 5px;
+    color: white;
+}
+.fab:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.infomation{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+
+.rec{
+    width: 650px;
+    height: 50px;
+    border: 5px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.content__edu{
+    width: 60%;
+}
+.edu{
+    background-color: #10ac84;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.content__edu-element{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text{
+    background-color: lightseagreen;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.content__edu-text{
+    padding-left: 10px;
+}
+
+.content__edu-img{
+    height: 200px;
+    width: 230px;
+    background-color: rgb(155, 143, 143);
+    color: rgb(87, 74, 74);
+    text-align: center;
+    line-height: 200px;
+}
+
+.content__blog{
+    width: 30%;
+}
+
+.blog{
+    background-color: #10ac84;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.content__blog-items{
+    padding: 20px;
+    border: 1px solid #10ac84;
+    display: flex;
+}
+
+.content__blog-circel{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #10ac84 ;
+    margin-right: 10px;
+}
+
+footer{
+    height: 100px;
+    background-color:  #10ac84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
