@@ -39,7 +39,7 @@
     color: white;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -106,7 +106,7 @@
 }
 
 .gif_gatto{
-    width: 250px;
+    width: 300px;
     position: absolute;
     top: 10%;
     left: 15%;
@@ -114,21 +114,35 @@
 }
 
 .img_modern{
-    width: 600px;
+    width: 800px;
     position: absolute;
-    left: 40%;
+    left: 45%;
     top: 20%;
 }
 
+.title{
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 20%;
+}
+
+.title h3{
+    font-size: 70px;
+    color: #6d4996;
+}
+
+.title p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #744ea0;
+}
 .content__container-seeMore{
     padding: 10px 20px;
     width: 130px;
     font-size: 20px;
     background-color: indigo;
     border-radius: 20px;
-    margin-top: 30%;
-    margin-left: 5%;
-    margin-bottom: 10%;
     color: white;
 }
 .content__container-seeMore:hover{
@@ -178,14 +192,13 @@
 .sale1{
     position: absolute;
     left: 41%;
-    top: 105%;
-    z-index: 1;
+    top: 125%;
 }
 
 .sale2{
    position: absolute;
    left: 76%;
-   top: 175%;
+   top: 190%;
    z-index: 1;
 }
 
