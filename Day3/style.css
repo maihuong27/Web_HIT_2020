@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.menu_1{
+    text-align: center;
+    padding: 8px 16px;
+    width: 20%;
+    position: relative;
+}
+.menu_1:hover{
+    background-color: blue;
+    color: wheat;  
+}
+
+.container{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+.menu_2{
+    background-color: violet;
+    color: red;
+    display: none;
+    padding: 8px 16px;
+}
+.menu_2:hover{
+    background-color: royalblue;
+}
+
+
+.menu_1:hover .menu_2{
+    display: block;
+}
+
+.container_2{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.menu_3{
+    width: 200%;
+    padding: 8px 16px;
+    background-color: salmon;
+    display: none;
+}
+.menu_3:hover{
+    background-color: seagreen;
+}
+.menu_2:hover .menu_3{
+    display: block;
+}
